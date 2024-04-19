@@ -20,11 +20,23 @@ const alienInvaders = [
 ]
 
 function draw() {
-    for (let i = 0; i< alienInvaders.length; i++) {
+    for (let i = 0; i < alienInvaders.length; i++) {
         if (!aliensRemoved.includes(i)) {
         squares[alienInvaders[i]].classList.add('invader')
         }
     }
 }
 draw()
-squares[currentShooterIndex].add('shooter')
+squares[currentShooterIndex].classList.add('shooter')
+
+function moveShooter(e) {
+    squares[currentShooterIndex].classList.remove('shooter')
+    switch(e.key) {
+    case 'ArrowLeft':
+    if (currentShooterIndex % width !==0) currentShooterIndex -=1
+    break
+}
+squares[currentShooterIndex].classList.add('shooter')
+}
+
+document.addEventListener('keydown', moveShooter)
