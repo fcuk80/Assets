@@ -1,37 +1,70 @@
 .grid
 {
-    width: 300px;
-    height: 300px;
-    border: solid 1px black;
+    width: 450px;
+    height: 450px;
+    border: solid 2px rgb(145, 43, );
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    margin-left: 10%; 
+   
+    
+    
 }
 
 .grid div 
 {
-    width: 20px;
-    height: 20px;
-    border: solid 1px red;
+    width: 30px;
+    height: 30px;
     box-sizing: border-box;
 }
 
 .invader 
 {
-    background-color: purple;
-    border-radius: 10px;
+    background-image: url(/images/invadergreen.svg);
+    background-size: 100%;
+    
 }
 
 .shooter 
 {
-    background-color: green;
+    background-image: url(/images/rocket-fly.gif);
+    background-size: 100%;
+    
 }
 
 .lazer 
 {
-    background-color: orange;
+    background-color: rgb(98, 88, 243);
+    border-radius: 20px;
+    box-shadow: 15px;
+
 }
 
 .boom 
 {
     background-color: red;
+}
+
+body 
+{ 
+    background-image: url(/images/stars.gif);
+    align-content: center;
+
+}
+
+.player 
+{
+    height: 100px;
+    width: 100px;
+}
+
+
+h1 
+{ 
+    color: yellow;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
