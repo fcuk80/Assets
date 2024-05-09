@@ -21,14 +21,14 @@
 
 .invader 
 {
-    background-image: url(/images/invadergreen.svg);
+    background-image: url(.\images);
     background-size: 100%;
     
 }
 
 .shooter 
 {
-    background-image: url(/images/rocket-fly.gif);
+    background-image: url(./images/rocket-fly.gif);
     background-size: 100%;
     
 }
@@ -38,6 +38,8 @@
     background-color: rgb(98, 88, 243);
     border-radius: 20px;
     box-shadow: 15px;
+    height: 2px;
+    width: 2px;
 
 }
 
@@ -48,7 +50,7 @@
 
 body 
 { 
-    background-image: url(/images/stars.gif);
+    background-image: url(assets\images\stars.gif);
     align-content: center;
 
 }
