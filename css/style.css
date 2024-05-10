@@ -2,7 +2,7 @@
 {
     width: 450px;
     height: 450px;
-    border: solid 2px rgb(145, 43, );
+    border: solid 2px rgb(145, 43,);
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -21,14 +21,14 @@
 
 .invader 
 {
-    background-image: url(.\images);
+    background-image: url(../images/invader.jpg);
     background-size: 100%;
     
 }
 
 .shooter 
 {
-    background-image: url(./images/rocket-fly.gif);
+    background-image: url(../images/rocket-fly.gif);
     background-size: 100%;
     
 }
@@ -50,7 +50,7 @@
 
 body 
 { 
-    background-image: url(assets\images\stars.gif);
+    background-image: url(../images/stars.gif);
     align-content: center;
 
 }
